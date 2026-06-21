@@ -50,11 +50,11 @@ class CameraConfig:
     ])
     resolution_index: int = 1  # default mulai di VGA
  
-    # Shutter speed / exposure — nilai negatif = EV stop (misal -6 ≈ 1/64s)
+    # Shutter speed / exposure - nilai negatif = EV stop (misal -6 ≈ 1/64s)
     # Isi None biar auto, atau isi angka untuk manual.
     exposure: Optional[int] = None
  
-    # ISO / gain — rentang biasanya 0-100, tergantung driver kamera
+    # ISO / gain - rentang biasanya 0-100, tergantung driver kamera
     # None = biarkan auto
     gain: Optional[int] = None
  
@@ -228,7 +228,7 @@ class CameraApp:
             if key == ord('q') or key == ord('Q') or is_key_held(VK_Q):
                 break
  
-            # Single capture — hanya trigger di momen tombol baru ditekan
+            # Single capture - hanya trigger di momen tombol baru ditekan
             space_held_now = is_key_held(VK_SPACE)
             if space_held_now and not space_was_held:
                 self._single_capture(frame)

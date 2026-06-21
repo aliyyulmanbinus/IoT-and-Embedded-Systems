@@ -1,4 +1,4 @@
-# IoT and Embedded Systems — Camera Control Script
+# IoT and Embedded Systems - Camera Control Script
 
 Script sederhana buat mengakses dan mengontrol kamera/webcam lewat OpenCV. Dibuat sebagai bagian dari Technical Test Full Stack Developer di Wrapstation.
 
@@ -22,7 +22,7 @@ Foto hasil capture otomatis tersimpan di folder `captures/`.
 | Tombol | Fungsi |
 |---|---|
 | `SPACE` | Ambil foto |
-| `B` (tahan) | Burst capture — foto terus sampai tombol dilepas |
+| `B` (tahan) | Burst capture - foto terus sampai tombol dilepas |
 | `+` / `=` | Naikkan brightness |
 | `-` | Turunkan brightness |
 | `R` | Ganti resolusi |
@@ -51,13 +51,13 @@ config = CameraConfig(
 | Index | Resolusi |
 |---|---|
 | 0 | 640 × 360 (nHD) |
-| 1 | 640 × 480 (VGA) — default |
+| 1 | 640 × 480 (VGA) - default |
 | 2 | 1280 × 720 (HD) |
 | 3 | 1920 × 1080 (Full HD) |
 
 ### Catatan soal Exposure & Gain
 
-Tidak semua webcam support kontrol manual untuk exposure dan gain — tergantung driver-nya. Kalau diisi tapi tidak berpengaruh, berarti kamera kamu tidak support fitur ini via DirectShow. Script tetap jalan normal dengan mode auto.
+Tidak semua webcam support kontrol manual untuk exposure dan gain - tergantung driver-nya. Kalau diisi tapi tidak berpengaruh, berarti kamera kamu tidak support fitur ini via DirectShow. Script tetap jalan normal dengan mode auto.
 
 ---
 
