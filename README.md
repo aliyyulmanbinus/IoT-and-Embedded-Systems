@@ -2,6 +2,10 @@
 
 Script sederhana buat mengakses dan mengontrol kamera/webcam lewat OpenCV. Dibuat sebagai bagian dari Technical Test Full Stack Developer di Wrapstation.
 
+## Demo
+
+[![Fruit Detection Demo](https://img.youtube.com/vi/D3JL6jWMbvY/0.jpg)](https://youtu.be/D3JL6jWMbvY)
+
 ---
 
 ## Cara Pakai
